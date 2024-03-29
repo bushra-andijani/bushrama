@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" type="text/css" href="mediaqueries.css">
+    
+</head>
+<body>
+   <script src="script.js"></script>
+    
+<nav id="desktop-nav">
+    <div class="logo">Bushra Al-andijani</div> 
+      <div >
+        <ul id="nav-links" >
+            <li><a href="#about">About</a></li>
+            <li><a href="#experience">Experience</a></li>
+            <li><a href="#Projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
+</nav>
+
+<nav id="hamburger-nav">
+    <div class="logo">Bushra Al-andijani</div> 
+    <div class="hamburger-menu">
+      <div class="hamburger-icon" onclick="toggleMenu()">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+      <div class="menu-links">
+        <ul>
+            <li><a href="#about" onclick="toggleMenu()">About</a></li>
+            <li><a href="#experience" onclick="toggleMenu()">Experience</a></li>
+            <li><a href="#Projects" onclick="toggleMenu()">Projects</a></li>
+            <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+
+</nav>
+ 
+<section id="profile">
+  <div class="sections__pic-container">
+      <img src="./assets/pic.jpg" alt="Bushra profile picture" >
+  </div>
+
+  <div class="sections__text">
+    <P class="sections__text__p1">Hello, I'm</P>
+    <h1 class="title">Bushra Al-andijani</h1>
+    <p class="sections__text__p2">Software Engineer</p>
+    <div class="btn-container">
+      <button class="btn btn-color-2" onclick="window.open('assets/bushra_Alandijani_Resumes.pdf')">
+       Download CV </button>
+
+       <button class="btn btn-color-1" onclick="location.href='#contact'">
+        Contact Info </button>
+    </div>
+    <div id="socials-contianer">
+      <img src="./assets/linkedin.png" alt="My linkedin profile" class="icon" onclick="location.href='https://linkedin.com/'">
+      <img src="./assets/github.png" alt="My Github profile" class="icon" onclick="location.href='https://github.com/'">
+    </div>
+  </div>
+</section>
+
+<section id="about">
+  <p class="sections__text__p1">Get To Know More</p>
+  <h1 class="title">About Me</h1>
+  <div class="section-container"> 
+    <div class="sections__pic-container">
+      <img src="./assets/pic2.jpg" alt="profile picture" class="about-pic">
+    </div>
+    <div class="about-details-container">
+      <div class="about-containers">
+        <div class="details-container">
+          <img src="./assets/experience.png" alt="experience icon" class="icon">
+          <h3>Experience</h3>
+          <p>volunteered <br>in the field of computer science</p>
+        </div>
+        <div class="details-container">
+          <img src="./assets/education.png" alt="Education icon" class="icon">
+          <h3>Education</h3>
+          <p>B.Sc. in Software Engineering<br>Al-Bayan High School</p>
+        </div>
+      </div>
+      <div class="text-container">
+        <p>Passionate software engineer with a strong background in computer science. Skilled in multiple programming languages and experienced in web development. A problem-solver with excellent communication and teamwork abilities. Dedicated to delivering impactful software solutions, seeking a challenging role to contribute to innovative projects and continuous learning.</p>
+      </div>
+    </div>
+  </div>
+  <img src="./assets/arrow.png" alt="Arrow icon" class="icon arrow" onclick="location.href='#experience'"> 
+</section>
+
+<section id="experience">
+  <p class="sections__text__p1">Explore My</p>
+  <h1 class="title">Experience</h1>
+  <div class="experience-details-container">
+    <div class="about-containers">
+      <div class="details-container">
+        <h2 class="experience-sub-title">skills</h2>
+        <div class="article-container">
+          <article>
+            <img src="./assets/checkmark.png" alt="Experience icon" class="icon">
+            <div>
+              <h3>HTML</h3>
+              <P>Experienced</P>
+            </div>
+          </article>
+          <article>
+            <img src="./assets/checkmark.png" alt="Experience icon" class="icon">
+            <div>
+              <h3>Java</h3>
+              <P>Experienced</P>
+            </div>
+          </article>
+          <article>
+            <img src="./assets/checkmark.png" alt="Experience icon" class="icon">
+            <div>
+              <h3>SQL</h3>
+              <P>Experienced</P>
+            </div>
+          </article>
+          <article>
+            <img src="./assets/checkmark.png" alt="Experience icon" class="icon">
+            <div>
+              <h3>CSS</h3>
+              <P>Experienced</P>
+            </div>
+          </article>
+          <article>
+            <img src="./assets/checkmark.png" alt="Experience icon" class="icon">
+            <div>
+              <h3>Java script</h3>
+              <P>Intermediate</P>
+            </div>
+          </article>
+          <article>
+            <img src="./assets/checkmark.png" alt="Experience icon" class="icon">
+            <div>
+              <h3>C</h3>
+              <P>Experienced</P>
+            </div>
+          </article>
+        </div>
+      </div>
+
+
+     
+      <div class="details-container">
+        <h2 class="experience-sub-title">Courses</h2>
+        <div class="article-container">
+          <article>
+            <img src="./assets/checkmark.png" alt="Experience icon" class="icon">
+            <div>
+              <h3>Data Analysis</h3>
+              <P> with Tuwaiq</P>
+            </div>
+          </article>
+          <article>
+            <img src="./assets/checkmark.png" alt="Experience icon" class="icon">
+            <div>
+              <h3>project management</h3>
+              <P>From Google</P>
+            </div>
+          </article>
+          <article>
+            <img src="./assets/checkmark.png" alt="Experience icon" class="icon">
+            <div>
+              <h3>UI/UX Design</h3>
+              <P>From Google</P>
+            </div>
+          </article>
+          <article>
+            <img src="./assets/checkmark.png" alt="Experience icon" class="icon">
+            <div>
+              <h3>Artificial intelligence</h3>
+              <P>From KAUST</P>
+            </div>
+          </article>
+        </div>
+      </div>
+      
+    
+    </div>
+  </div>
+  <img src="./assets/arrow.png" alt="Arrow icon" class="icon arrow" onclick="location.href='#Projects'"> 
+
+</section>
+
+<section id="Projects">
+  <P class="sections__text__p1">Browse My Recent</P>
+  <h1 class="title">Projects</h1>
+  <div class="experience-details-container">
+    <div class="about-containers">
+    <div class="details-container color-container">
+      <div class="article-container">
+        <img src="./assets/blood_donation.png" alt="Blood Donation System Project picture" class="project-img">
+      </div>
+      <h4 class="experience-sub-title project-title">Blood Donation System</h4>
+      <p class="discription">Created a streamlined and efficient system for managing blood donations, facilitating seamless coordination between donors and recipients for life-saving transfusions.</p>
+      <div class="btn-container">
+        <button class="btn-color-2 project-btn" onclick="location.href='https://github.com/'"
+        >
+          Github
+        </button>
+      </div>
+    </div>
+    <div class="details-container color-container">
+      <div class="article-container">
+        <img src="./assets/MyBill.jpg" alt="Billing Software Project picture" class="project-img">
+      </div>
+      <h4 class="experience-sub-title project-title">Billing Software</h4>
+      <p class="discription">Developed a comprehensive and intuitive billing management program that automates invoicing, tracks payments, and generates financial reports, enhancing accuracy and efficiency in financial operations.</p>
+      <div class="btn-container">
+        <button class="btn-color-2 project-btn" onclick="location.href='https://github.com/'"
+        >
+          Github
+        </button>
+      </div>
+    </div>
+    <div class="details-container color-container">
+      <div class="article-container">
+        <img src="./assets/Tech-IT.png" alt="Tech-It logo " class="project-img">
+      </div>
+      <h4 class="experience-sub-title project-title">Tech-It</h4>
+      <p >Designed and implemented a user-friendly interface for a programming learning program, providing interactive exercises, tutorials, and coding challenges to facilitate the acquisition of programming skills in a structured and engaging manner.</p>
+      <div class="btn-container">
+        <button class="btn-color-2 project-btn" onclick="location.href='https://github.com/'"
+        >
+          Github
+        </button>
+      </div>
+    </div> </div>
+  </div>
+  <img src="./assets/arrow.png" alt="Arrow icon" class="icon arrow" onclick="location.href='#contact'"> 
+</section>
+
+<section id="contact" >
+  <p class="sections__text__p1">Get in Touch</p>
+  <h1 class="title">Contact Me</h1>
+  <div class="contact-info-upper-container">
+    <div class="contact-info-container">
+      <img src="./assets/email.png" alt="Email icon" class="icon contact-icon email-icon">
+      <p><a href="mailto:bbushraalandijani@gmail.com">bbushraalandijani@gmail.com</a></p>
+    </div>
+  
+  <div class="contact-info-container">
+    <img src="./assets/linkedin.png" alt="linkedin icon" class="icon contact-icon">
+    <p><a href="https://www.linkedin.com">linkedin</a></p>
+  </div> </div>
+</section>
+<footer>
+  <nav>
+    <div class="nav-links-container">
+      <ul id="footer-nav-links">
+        <li><a href="#about">About</a></li>
+        <li><a href="#experience">Experience</a></li>
+        <li><a href="#Projects">Projects</a></li>
+        
+    </ul>
+
+    </div>
+  </nav>
+  <p>Copyright &#169;2023 Bushra Al-Andijani.All Rights Reserved</p>
+</footer>
+
+</body>
+</html>
